@@ -1,6 +1,4 @@
-<?php
-$kon = mysqli_connect("localhost", "root", "", "phpdasar");
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">

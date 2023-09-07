@@ -2,23 +2,23 @@
 <html lang="en">
 
 <head>
-    
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' href='{{asset('poto/potoicon.png')}}'>
+    <link rel='icon' href='{{ asset('poto/potoicon.png') }}'>
     <title>@yield('title')</title>
 
 </head>
 
 <body>
-<nav>
+    <nav>
         <div class="sidebar close">
             <header>
                 <div class="image-text">
                     <span class="image">
-                        <img src="{{asset('poto/logo.png')}}" alt="">
+                        <img src="{{ asset('poto/logo.png') }}" alt="">
                     </span>
                     <div class="text header-text" style="  margin-left: 10px;">
                         <span class="name">YasmaVoca Farm</span>
