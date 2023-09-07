@@ -7,8 +7,6 @@
             background-image: url('{{ asset('poto/rawr.png') }}');
             background-size: cover;
             height: 100vh;
-
-
         }
 
         #open {
